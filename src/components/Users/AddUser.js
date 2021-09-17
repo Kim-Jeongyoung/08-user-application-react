@@ -13,6 +13,7 @@ const AddUser = (props) => {
     if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0) {
       return;
     }
+    //+넣어줘서 숫자로 인식하게 함
     if (+enteredAge < 1) {
       return;
     }
