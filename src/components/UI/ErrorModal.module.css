@@ -18,8 +18,8 @@
 }
 
 .header {
-  background: #4f005f;
-  padding: 1rem;
+  background: #e4685d;
+  padding: 0.5rem;
 }
 
 .header h2 {
@@ -28,11 +28,11 @@
 }
 
 .content {
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
 .actions {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: flex-end;
 }

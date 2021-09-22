@@ -1,16 +1,34 @@
 .button {
-  font: inherit;
+  box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+  background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  background-color: #fc8d83;
+  border-radius: 6px;
+  border: 1px solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+  /* font: inherit;
   border: 1px solid #4f005f;
   background: #4f005f;
   color: white;
   padding: 0.25rem 1rem;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .button:hover,
 .button:active {
-  background: #741188;
-  border-color: #741188;
+  background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  background-color: #e4685d;
+  position: relative;
+  top: 1px;
+  /* background: #741188;
+  border-color: #741188; */
 }
 
 .button:focus {
